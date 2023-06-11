@@ -1,0 +1,56 @@
+ @charset "UTF-8";
+
+ html{
+    font-family: sans-serif;
+ }
+ h1,h2,h3,h4,h5,h6{
+    font-family: "Oxygen";
+ }
+
+ .top-nav{
+    background: rgb(155, 152, 152);
+    text-align: center;
+ }
+ .top-nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+ }
+ .top-nav a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+ }
+ .top-nav a:hover{
+     background: rgb(54, 54, 54);
+ }
+
+
+.card-container img{
+   width: 60%;
+   padding: 5%;
+}
+#txt{
+   width: 50%;
+   padding: 10%;
+}
+.top-header{
+   display: flex;
+   margin: 1%;
+}
+.button{
+   display: block;
+   text-align: center;
+   background-color: rgb(155, 152, 152);
+   margin: 2em;
+   padding: 15px;
+   width: 150px;
+   border-radius: 5px;
+   margin-left: 43%;
+   text-decoration: none;
+   color: white;
+}
+.button:hover{
+   background-color: rgb(54, 54, 54);
+}
